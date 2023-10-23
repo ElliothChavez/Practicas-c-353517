@@ -25,7 +25,7 @@ int main() {
 			fflush(stdin);
 			printf("%s tiene %d a%cos y su calificacion es de %.2f\n ",persona[x].nombre,persona[x].edad,164,persona[x].calif1);
 		}
-			fwrite(&persona,sizeof(persona),5,archivo);
+			fwrite(persona,sizeof(persona),5,archivo);
 	}
 	return(0);
 }

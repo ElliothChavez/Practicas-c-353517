@@ -9,8 +9,6 @@ int main() {
 	gets(palabra1);
 	for(i=0; i<=strlen(palabra1)-1; i++) {
 		if(palabra1[i]!=' ') {
-
-
 			palabra3[cont2]=palabra1[i];
 			cont2++;
 		}
@@ -26,7 +24,7 @@ int main() {
 	system("cls");
 	printf("la palabra invertida es: \n");
 	puts(palabra2);
-	r=strcmp(palabra3,palabra2);
+	r=strcmp(palabra3,palabra2); // regresa un cero si son iguales
 	if(r==0)
 	  printf("la palabra es un palindromo\n");
 	else

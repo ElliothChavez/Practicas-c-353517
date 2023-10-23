@@ -4,7 +4,7 @@ void imprimir(); // declaracion de la funcion
 
 int main() {
 	imprimir();
-	return 100;
+	return 0;
 }
 
 void imprimir (){

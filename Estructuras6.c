@@ -2,7 +2,9 @@
 Autor: Ellioth Chavez Lujan
 realizar un menu, que muestre losdatos y permita la lectura */
 
-/* #include<stdio.h>
+// este es el chido
+
+/#include<stdio.h>
 #include<string.h>
 
 int main() {
@@ -26,7 +28,7 @@ int main() {
 		scanf("%d",&opcion);
 		switch(opcion) {
 			case 1:
-				archivo = fopen("Hojadatos.dat","ab");
+				archivo = fopen("Hojadatos.dat","wb");
 				system("pause");
 				printf("Creacion del documento, por favor introduzca los datos:\n");
 				printf("escriba el numero de personas que agregara a el documento:   ");
@@ -78,8 +80,8 @@ int main() {
 	return 0;
 
 }
-*/
 
+/*
 #include <stdio.h>
 #include <stdlib.h>
 #include<string.h>
@@ -89,7 +91,7 @@ struct Alumno {
 	char nombre[50];
 	int edad;
 	float calificacion;
-}alumno;
+};
 
 int main() {
 	int opcion, numAlumnos;
@@ -189,3 +191,4 @@ int main() {
 
 	return 0;
 }
+*/
